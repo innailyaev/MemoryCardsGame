@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+#gameBoard{
+    width: 700px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cube{
+    height: 200px;
+    width: 200px;
+    border: solid lightgray;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.cube:hover{
+    border:solid lightpink;
+}
+
+.rightSide{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://i.pinimg.com/originals/a6/47/ee/a647eec3a71f8f2446840d439a9c8f9e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftSide{
+    display: flex;
+    width: 70%;
+    background: url('https://i.pinimg.com/originals/1b/b4/62/1bb46265b5bb8f239b1a9de93d61a5c4.jpg');
+}
+
+.start{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(243, 112, 199);
+    outline: none;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border: none;
+}
+
+.start:hover{
+    background:  lightpink;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:30% ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+span{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.win{
+    color: rgb(187, 53, 75);
+    font-size: 50px;
+    display: none;
+}
+
+
+
+.cupcake{
+    background: url('https://www.bostongirlbakes.com/wp-content/uploads/2018/04/MG_5052.jpg');
+    background-size: cover;
+
+}
+
+.macaron{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFmHH5axFRWrEHoLn6mni53pL8mcUIx4LKOQ&usqp=CAU');
+    background-size: cover;
+
+}
+
+.chipCookie{
+    background: url('https://kirbiecravings.com/wp-content/uploads/2019/05/keto-chocolate-chip-cookies-2.jpg');
+    background-size: cover;
+}
+
+.applePie{
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/apple-pie-1563833642.jpg?crop=0.668xw:1.00xh;0.194xw,0&resize=640:*');
+    background-size: cover;
+}
+
+.strawberries{
+    background: url('https://www.cookingclassy.com/wp-content/uploads/2020/01/chocolate-covered-strawberries-15.jpg');
+    background-size: cover;
+}
+
+.cake{
+    background: url('https://images.immediate.co.uk/production/volatile/sites/2/2019/04/Choc-Fudge-Cake-b2d1909.jpg?quality=90&resize=768%2C574');
+    background-size: cover;
+}
+
+
+
+
